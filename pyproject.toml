@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "langchain-simplebot-poc"
+version = "0.1.0"
+description = "My first bot to get familiar with LangChain"
+authors = ["FlemmingR <146717357+Flemming-R@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8, <3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
